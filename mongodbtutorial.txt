@@ -1,0 +1,16 @@
+Mongo db
+
+*)mongod is the process that will be running the mongodb. Mongo java driver acts as catalyst b/w java program and mongod process. mongoshell is command line to access the mongod process
+*)Starting the mongod db steps
+	first start the mongod  in cmd prompt as -> "mongod"
+	check if place for data is present int he directory which ur running this shell
+	*)md \data, md \data\db
+	then start mongoshell by opening cmd prompt by typing "mongo"
+*)JSON ->Object,Arrays,String,number,
+*)BSON -> same as json including date,int,double ->Bson->mongo java driiver to mongodb communication 
+*)keywords in mongodb -> videos.movies , movies collection in videos database in reality
+*)use videos ->switched to videos database  if not present will create videos db
+*)_Id field is auto generated or can be created by the user while inserting the document
+*)db.movies.find()-->normal query to fetch all the values
+*)db.movies.find({"title":"Inception"}) -> will fetch all queries that are matching the title inception
+
